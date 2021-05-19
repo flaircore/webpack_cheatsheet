@@ -1,0 +1,22 @@
+@import "variables";
+
+body {
+    margin: 0;
+    padding: 0;
+    background: map-get($colors, background_clr);
+    font-size: 18px;
+    display: grid;
+    place-items: center;
+}
+
+.react-block-wrapper {
+    background: map-get($colors, background_react);
+
+}
+main {
+
+}
+
+button {
+    font-size: 1.5rem;
+}
