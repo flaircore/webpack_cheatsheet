@@ -81,6 +81,15 @@ module.exports = {
         ],
     },
 
+    optimization: {
+        minimizer: [
+            // For webpack@5 you can use the `...` syntax to extend existing minimizers (i.e. `terser-webpack-plugin`), uncomment the next line
+            // `...`,
+            new CssMinimizerPlugin(),
+        ],
+        //minimize: true,// to minimize even in dev
+    },
+
     resolve: {
         extensions: [".js", ".jsx", ".ts", ".tsx", ".vue"],
         alias: { vue: 'vue/dist/vue.js' },

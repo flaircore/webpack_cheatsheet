@@ -24,6 +24,11 @@ https://webpack.js.org/plugins/mini-css-extract-plugin/#root
 
 https://webpack.js.org/loaders/sass-loader/
 
+minimize css files...
+---------------------
+`yarn add css-minimizer-webpack-plugin -D`
+
+https://webpack.js.org/plugins/css-minimizer-webpack-plugin/
 
 Transpile es6+ to the set browser support...
 ------------------------------------------
