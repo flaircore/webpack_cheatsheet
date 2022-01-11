@@ -63,8 +63,9 @@ module.exports = {
                             esModule: false
                         }
                     },
-                    "postcss-loader",
-                    "sass-loader"
+                    "sass-loader",
+                    "postcss-loader"
+                    
                 ]
             },
             {
